@@ -1131,7 +1131,7 @@ Remove Message By Id.
 
 | Param | Type |
 | --- | --- |
-| messageId | <code>String</code> | 
+| messageId | <code>String</code> |
 
 <a name="Bot+roomRename"></a>
 
@@ -1142,7 +1142,7 @@ Set Title of Room.
 
 | Param | Type |
 | --- | --- |
-| title | <code>String</code> | 
+| title | <code>String</code> |
 
 **Example**  
 ```js
@@ -1160,7 +1160,7 @@ Get messages from room. Returned data has newest message at bottom.
 
 | Param | Type |
 | --- | --- |
-| count | <code>Integer</code> | 
+| count | <code>Integer</code> |
 
 **Example**  
 ```js
@@ -1182,9 +1182,9 @@ Store key/value data.
 
 | Param | Type |
 | --- | --- |
-| id | <code>String</code> | 
-| key | <code>String</code> | 
-| value | <code>String</code> &#124; <code>Number</code> &#124; <code>Boolean</code> &#124; <code>Array</code> &#124; <code>Object</code> | 
+| id | <code>String</code> |
+| key | <code>String</code> |
+| value | <code>String</code> &#124; <code>Number</code> &#124; <code>Boolean</code> &#124; <code>Array</code> &#124; <code>Object</code> |
 
 <a name="Bot+recall"></a>
 
@@ -1195,8 +1195,8 @@ Recall value of data stored by 'key'.
 
 | Param | Type |
 | --- | --- |
-| id | <code>String</code> | 
-| key | <code>String</code> | 
+| id | <code>String</code> |
+| key | <code>String</code> |
 
 <a name="Bot+forget"></a>
 
